@@ -408,7 +408,7 @@ public class SweetHome3D extends HomeApplication {
 
     addComponent3DRenderingErrorObserver();
 
-      getUserPreferences();
+    getUserPreferences();
 
     try {
       System.setProperty("http.agent",
