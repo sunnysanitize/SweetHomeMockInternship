@@ -760,6 +760,13 @@ public class CatalogPieceOfFurniture implements Comparable<CatalogPieceOfFurnitu
   public BigDecimal getPrice() {
     return this.price;
   }
+
+  /**
+   * Returns the volume of this piece of furniture.
+   */
+  public float getVolume() {
+    return getWidth() * getDepth() * getHeight();
+  }
   
   /**
    * Returns the Value Added Tax percentage applied to the price of this piece of furniture. 
