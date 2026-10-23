@@ -63,6 +63,11 @@ public interface PieceOfFurniture {
   public abstract float getElevation();
 
   /**
+   * Returns the volume of this piece of furniture.
+   */
+  public abstract float getVolume();
+
+  /**
    * Returns the elevation at which should be placed an object dropped on this piece.
    * @return a percentage of the height of this piece. A negative value means that the piece 
    *         should be ignored when an object is dropped on it. 
